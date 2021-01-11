@@ -1,5 +1,12 @@
+$colorblack: #101010;
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+@mixin headerFooter {
+  height: 100px;
+  width: 100%;
+  background-color: $colorblack;
 }
